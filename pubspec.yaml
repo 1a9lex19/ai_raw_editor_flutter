@@ -1,0 +1,25 @@
+name: ai_raw_editor
+description: Mobile RAW photo editor with local automatic enhancement.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  file_picker: ^11.0.2
+  image: ^4.5.4
+  flutter_libraw: ^0.0.2
+  path_provider: ^2.1.5
+  gal: ^2.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
